@@ -1,0 +1,26 @@
+Component Build for AlloyUI
+
+Steps:
+
+    Directories:
+        /builder: git clone git://github.com/yui/builder.git
+        /trunk: The trunk of your SVN source tree (can be a symlink)
+        /alloy This repository
+            /alloy-builder
+                Contains the build scripts to build AlloyUI
+                This folder needs to be symlinked to:
+                    /builder/alloy
+            /build
+                This is where the build output goes
+            /src
+                This is where the raw source files go
+
+    Files:
+        setup.php
+            This is a hacked PHP file to move the files from /trunk to
+                /src, create the build.* files and create a directory structure
+                **IT WILL REMOVE ALL THE FILES UNDER /src and /build SO BE CAREFUL**
+
+        build.xml
+            The template copied with the setup.php file
+    

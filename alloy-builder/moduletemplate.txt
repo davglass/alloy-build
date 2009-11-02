@@ -1,0 +1,5 @@
+AUI.add('@MODULE@', function(@YUIVAR@) {
+
+@CODE@
+
+}, '@VERSION@' @DETAILS@);
