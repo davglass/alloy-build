@@ -5,7 +5,7 @@ Steps:
     Directories:
         /builder: git clone git://github.com/yui/builder.git
         /trunk: The trunk of your SVN source tree (can be a symlink)
-        /alloy This repository
+        /alloy-build This repository
             /alloy-builder
                 Contains the build scripts to build AlloyUI
                 This folder needs to be symlinked to:
