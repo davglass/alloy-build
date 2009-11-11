@@ -2,7 +2,6 @@
 <?php
 
 $base_path = './src/';
-$base_path = '/Users/davglass/src/local/3.x/src/';
 
 $files = $data = array();
 if ($handle = opendir($base_path)) {
